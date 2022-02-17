@@ -85,6 +85,26 @@ Only foreground-default, base and shaded
 
 ## Page Header
 just top icon
+Icon is a c-primitive-icon (sls hooks still work on it)
+global radius
+- --avonni-page-header-base-icon-color-radius-border ✅
+variants:
+- base
+- --avonni-page-header-base-icon-color-background
+- --avonni-page-header-base-icon-color-foreground
+- --avonni-page-header-base-icon-color-foreground-default
+- object-home
+- --avonni-page-header-object-home-icon-color-background
+- --avonni-page-header-object-home-icon-color-foreground
+- --avonni-page-header-object-home-icon-color-foreground-default
+- record-home
+- --avonni-page-header-record-home-icon-color-background ✅
+- --avonni-page-header-record-home-icon-color-foreground ✅
+- --avonni-page-header-record-home-icon-color-foreground-default
+- record-home-vertical
+- --avonni-page-header-record-home-vertical-icon-color-background
+- --avonni-page-header-record-home-vertical-icon-color-foreground
+- --avonni-page-header-record-home-vertical-icon-color-foreground-default
 
 - ❌ Pagination
 - ❌ Panel
