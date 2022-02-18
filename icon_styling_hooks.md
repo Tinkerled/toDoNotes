@@ -5,7 +5,7 @@
 - --sds-c-icon-color-foreground-default
 ##
 - ❌ Activity Timeline
-## Alert
+## Alert ✅
 global radius:
 - --avonni-alert-icon-radius-border 🟢
 
@@ -24,13 +24,14 @@ global radius:
 - --avonni-alert-offline-icon-color-background 🟢
 - --avonni-alert-offline-icon-color-foreground 🟢
 - --avonni-alert-offline-icon-color-foreground-default 🟢
-## Avatar 
+## Avatar ✅
 OUI just on fallback icon. 
-is it possible?
-- 
+- --avonni-avatar-fallback-icon-color-background ✅ ✅
+- --avonni-avatar-fallback-icon-color-foreground ✅ ✅
+- --avonni-avatar-fallback-icon-color-foreground-default ✅ ✅
 ##
 - ❌ Avatar Group
-## Blockquote
+## Blockquote ✅
 Only add radius, others already present
 - --avonni-blockquote-icon-radius-border ✅ ✅
 ##
@@ -52,7 +53,7 @@ Only add radius, others already present
 - ❌ Dialog
 - ❌ Dual Listbox
 - ❌ Dynamic Menu
-## Expandable Section
+## Expandable Section ✅
 Not background because not aligned with icon
 No radius because no background
 Only foreground-default, base and shaded
@@ -76,7 +77,7 @@ Only foreground-default, base and shaded
 - ❌ Media Object
 - ❌ Menu Item Dialog
 - ❌ Output Data
-## Page Header
+## Page Header ✅
 just top icon
 Icon is a c-primitive-icon (sls hooks still work on it)
 global radius
@@ -109,7 +110,7 @@ variants:
 - ❌ Rating
 - ❌ Relationship Graph
 - ❌ Scheduler
-## ScopedNotification
+## ScopedNotification ✅
 Make radius global:
 - --avonni-scoped-notification-icon-radius-border...
 
@@ -137,10 +138,10 @@ Make radius global:
 - --avonni-scoped-notification-dark-icon-color-foreground ✅ ✅
 - --avonni-scoped-notification-dark-icon-color-foreground-default ✅ ✅
 - --avonni-scoped-notification-dark-icon-radius-border - ❌ remove
-## Separator
+## Separator ✅
 OUI
 add only radius, others present already
-- --avonni-separator-icon-color-radius-border ✅ ✅
+- --avonni-separator-icon-radius-border ✅ ✅
 ##
 - ❌ Splitter
 - ❌ Submenu
@@ -156,7 +157,7 @@ sur le chevron ::: no its a Lightning-button-icon ❌
 - ❌ Vertical Visual Picker
 - ❌ Visual Picker
 
-## Visual Picker Link 
+## Visual Picker Link ✅
 OUI ::: works, except for complete 🤦‍♂️
 - use only background for complete
 - --avonni-visual-picker-icon-radius-border ✅ ✅
