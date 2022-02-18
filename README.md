@@ -145,26 +145,29 @@ add only radius, others present already
 ##
 - ❌ Splitter
 - ❌ Submenu
-
 ## Summary Detail
-Sur le chevron OUI ::: no its a Lightning-button-icon
-
+Sur le chevron OUI ::: no its a Lightning-button-icon ❌
+##
 - ❌ Tab Bar
 - ❌ Timer
-
 ## Tree
-sur le chevron ::: no its a Lightning-button-icon
-
+sur le chevron ::: no its a Lightning-button-icon ❌
+##
 - ❌ Vertical Progress Indicator
 - ❌ Vertical Visual Picker
 - ❌ Visual Picker
 
 ## Visual Picker Link 
 OUI ::: works, except for complete 🤦‍♂️
-
+- use only background for complete
+- --avonni-visual-picker-icon-radius-border ✅ ✅
+- --avonni-visual-picker-icon-color-background ✅ ✅
+- --avonni-visual-picker-icon-color-background-complete ✅ ✅
+- --avonni-visual-picker-icon-color-foreground ✅ ✅
+- --avonni-visual-picker-icon-color-foreground-default ✅ ✅
+##
 - ❌ Wizard
-
-
+##
 Added Avonni Tree Component
 compare 1.1.0 with 1.0.1
 
