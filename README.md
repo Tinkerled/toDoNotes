@@ -1,5 +1,7 @@
 # Todo List
 
+[notes1](/notes1.md)
+
 add:
 - --sds-c-icon-radius-border
 - --sds-c-icon-color-background
@@ -87,24 +89,20 @@ Only foreground-default, base and shaded
 just top icon
 Icon is a c-primitive-icon (sls hooks still work on it)
 global radius
-- --avonni-page-header-base-icon-color-radius-border ✅
+- --avonni-page-header-icon-color-radius-border ✅ ✅
 variants:
 - base
-- --avonni-page-header-base-icon-color-background
-- --avonni-page-header-base-icon-color-foreground
-- --avonni-page-header-base-icon-color-foreground-default
+- --avonni-page-header-base-icon-color-background ✅ ✅
+- --avonni-page-header-base-icon-color-foreground ✅ ✅
 - object-home
-- --avonni-page-header-object-home-icon-color-background
-- --avonni-page-header-object-home-icon-color-foreground
-- --avonni-page-header-object-home-icon-color-foreground-default
+- --avonni-page-header-object-home-icon-color-background ✅ ✅
+- --avonni-page-header-object-home-icon-color-foreground ✅ ✅
 - record-home
-- --avonni-page-header-record-home-icon-color-background ✅
-- --avonni-page-header-record-home-icon-color-foreground ✅
-- --avonni-page-header-record-home-icon-color-foreground-default
+- --avonni-page-header-record-home-icon-color-background ✅ ✅
+- --avonni-page-header-record-home-icon-color-foreground ✅ ✅
 - record-home-vertical
-- --avonni-page-header-record-home-vertical-icon-color-background
-- --avonni-page-header-record-home-vertical-icon-color-foreground
-- --avonni-page-header-record-home-vertical-icon-color-foreground-default
+- --avonni-page-header-record-home-vertical-icon-color-background ✅ ✅
+- --avonni-page-header-record-home-vertical-icon-color-foreground ✅ ✅
 
 - ❌ Pagination
 - ❌ Panel
@@ -151,30 +149,39 @@ Make radius global:
 - --avonni-scoped-notification-dark-icon-radius-border - ❌ remove
 
 ## Separator
-OUI
+OUI ::: its a lightning button icon
+add only radius, others present already
+- --avonni-separator-icon-color-radius-border ✅ ✅
 
 - ❌ Splitter
 - ❌ Submenu
 
 ## Summary Detail
-Sur le chevron OUI
+Sur le chevron OUI ::: no its a Lightning-button-icon
 
 - ❌ Tab Bar
 - ❌ Timer
 
 ## Tree
-[] lkj
-sur le chevron
+sur le chevron ::: no its a Lightning-button-icon
 
 - ❌ Vertical Progress Indicator
 - ❌ Vertical Visual Picker
 - ❌ Visual Picker
 
 ## Visual Picker Link 
-OUI
+OUI ::: works, except for complete 🤦‍♂️
 
 - ❌ Wizard
 
 
 Added Avonni Tree Component
 compare 1.1.0 with 1.0.1
+
+podcast: 
+the daily
+global news podcast bbc
+lore
+the trojan horse affaire
+true crime: morbid, killer, psychy
+synthese
