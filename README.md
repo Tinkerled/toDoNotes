@@ -1,16 +1,12 @@
 # Todo List
-
 [notes1](/notes1.md)
-
-add:
+## Add:
 - --sds-c-icon-radius-border
 - --sds-c-icon-color-background
 - --sds-c-icon-color-foreground
 - --sds-c-icon-color-foreground-default
-
+##
 - ❌ Activity Timeline
-NON
-
 ## Alert
 global radius:
 - --avonni-alert-icon-radius-border 🟢
@@ -30,17 +26,15 @@ global radius:
 - --avonni-alert-offline-icon-color-background 🟢
 - --avonni-alert-offline-icon-color-foreground 🟢
 - --avonni-alert-offline-icon-color-foreground-default 🟢
-
 ## Avatar 
 OUI just on fallback icon. 
 is it possible?
-
+##
 - ❌ Avatar Group
-
 ## Blockquote
 Only add radius, others already present
 - --avonni-blockquote-icon-radius-border ✅ ✅
-
+##
 - ❌ Button Dialog
 - ❌ Button Icon Dialog
 - ❌ Button Icon Popover
@@ -59,14 +53,13 @@ Only add radius, others already present
 - ❌ Dialog
 - ❌ Dual Listbox
 - ❌ Dynamic Menu
-
 ## Expandable Section
 Not background because not aligned with icon
 No radius because no background
 Only foreground-default, base and shaded
 - --avonni-expandable-section-base-header-icon-color-foreground-default ✅ ✅
 - --avonni-expandable-section-shaded-header-icon-color-foreground-default ✅ ✅
-
+##
 - ❌ Filter Menu
 - ❌ Filter Menu Group
 - ❌ Hero Banner
@@ -84,7 +77,6 @@ Only foreground-default, base and shaded
 - ❌ Media Object
 - ❌ Menu Item Dialog
 - ❌ Output Data
-
 ## Page Header
 just top icon
 Icon is a c-primitive-icon (sls hooks still work on it)
@@ -103,7 +95,7 @@ variants:
 - record-home-vertical
 - --avonni-page-header-record-home-vertical-icon-color-background ✅ ✅
 - --avonni-page-header-record-home-vertical-icon-color-foreground ✅ ✅
-
+##
 - ❌ Pagination
 - ❌ Panel
 - ❌ Path
@@ -118,7 +110,6 @@ variants:
 - ❌ Rating
 - ❌ Relationship Graph
 - ❌ Scheduler
-
 ## ScopedNotification
 Make radius global:
 - --avonni-scoped-notification-icon-radius-border...
@@ -147,12 +138,11 @@ Make radius global:
 - --avonni-scoped-notification-dark-icon-color-foreground ✅ ✅
 - --avonni-scoped-notification-dark-icon-color-foreground-default ✅ ✅
 - --avonni-scoped-notification-dark-icon-radius-border - ❌ remove
-
 ## Separator
-OUI ::: its a lightning button icon
+OUI
 add only radius, others present already
 - --avonni-separator-icon-color-radius-border ✅ ✅
-
+##
 - ❌ Splitter
 - ❌ Submenu
 
