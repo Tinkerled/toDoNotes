@@ -1,0 +1,76 @@
+Plain list
+
+🟢 - present
+✅ - done
+🔵 - do
+❌ - dont do
+
+- Activity Timeline
+- Alert
+- Avatar
+- Avatar Group
+- Blockquote
+- Button Dialog
+- Button Icon Dialog
+- Button Icon Popover
+- Button Menu
+- Button Popover
+- Calendar
+- Carousel
+- Chip
+- Color Gradient
+- Color Palette
+- Color Picker
+- Combobox
+- Confetti
+- Datatable
+- Date Time Picker
+- Dialog
+- Dual Listbox
+- Dynamic Menu
+- Expandable Section
+- Filter Menu
+- Filter Menu Group
+- Hero Banner
+- Icon Picker
+- Illustration
+- Image
+- Input Choice Set
+- Input Counter
+- Input Data
+- Input Date Range
+- Input Pen
+- Input Toggle
+- List 
+- Map
+- Media Object
+- Menu Item Dialog
+- Output Data
+- Page Header
+- Pagination
+- Panel
+- Path
+- Profile Card
+- Progress Bar
+- Progress Circle
+- Progress Indicator
+- Progress Ring
+- Publisher
+- Qrcode
+- Range
+- Rating
+- Relationship Graph
+- Scheduler
+- ScopedNotification
+- Separator
+- Splitter
+- Submenu
+- Summary Detail
+- Tab Bar
+- Timer
+- Tree
+- Vertical Progress Indicator
+- Vertical Visual Picker
+- Visual Picker
+- Visual Picker Link
+- Wizard

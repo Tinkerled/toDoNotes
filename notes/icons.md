@@ -1,5 +1,9 @@
 # Icons Samples
 
+🟢 - present
+✅ - done
+🔵 - do
+❌ - dont do
 ##
 - standard:avatar
 - custom:custom5
