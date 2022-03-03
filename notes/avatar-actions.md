@@ -1,20 +1,20 @@
 ## Properties
-actionPosition,
-actions
-actionSize
-actionMenuIcon
+- actionPosition,
+- actions
+- actionSize
+- actionMenuIcon
 
-- [] Avatar Doc on confluence
+[] Avatar Doc on confluence
 
 ## Passing arguments
 actionPosition:
 
-`avatar.stories.js`
-`/__examples__/avatar.js`
-`avatar.html` -> `action-position={actionPosition}`
-`avatar.js` -> `@api get set`
-`primitiveAvatar.html` -> `action-position={actionPosition}`
-`primitiveAvatar.js` -> `@api get set`
+    `avatar.stories.js`
+    `/__examples__/avatar.js`
+    `avatar.html` -> `action-position={actionPosition}`
+    `avatar.js` -> `@api get set`
+    `primitiveAvatar.html` -> `action-position={actionPosition}`
+    `primitiveAvatar.js` -> `@api get set`
 
 
 !!! First item is what goes in the documentation on the site
