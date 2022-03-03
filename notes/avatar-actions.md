@@ -4,7 +4,7 @@
 - actionSize
 - actionMenuIcon
 
-[] Avatar Doc on confluence
+- [ ] Avatar Doc on confluence
 
 ## Passing arguments
 actionPosition:
