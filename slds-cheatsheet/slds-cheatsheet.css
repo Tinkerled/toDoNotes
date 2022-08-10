@@ -1,0 +1,165 @@
+/*
+ * List of SLDS classes regularly used.
+ */
+
+/*  --------------------------------------------------
+ *   GRID
+ *  ----------------------------------------------- */
+
+.slds-grid {
+  display: flex;
+}
+
+.slds-grid_vertical-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+.slds-grid_reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.slds-grid_vertical-align-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+}
+
+.slds-col {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+/*  --------------------------------------------------
+ *   Positioning
+ *  ----------------------------------------------- */
+
+.slds-is-fixed {
+  position: fixed;
+}
+
+.slds-is-relative {
+  position: relative;
+}
+
+.slds-is-absolute {
+  position: absolute;
+}
+
+.slds-is-static {
+  position: static;
+}
+
+.slds-align_absolute-center {
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+/*  --------------------------------------------------
+ *   Utilities: https://www.lightningdesignsystem.com/utilities/visibility/
+ *  ----------------------------------------------- */
+
+.slds-visible {
+  visibility: visible; /* The element appears as an empty blank spot. */
+}
+
+.slds-hidden {
+  visibility: hidden !important;
+}
+
+.slds-hide {
+  display: none !important;
+}
+
+.slds-show {
+  display: block;
+}
+
+.slds-show--inline-block,
+.slds-show_inline-block {
+  display: inline-block;
+}
+
+.slds-transition-hide {
+  opacity: 0;
+}
+
+.slds-transition-show {
+  opacity: 1;
+}
+
+/* 
+   Tuncate structure: 
+
+   div.slds-grid 
+        div.slds-grid.slds-has-flexi-truncate (only necessary in grid... ?)
+            div.slds-truncate
+*/
+
+.slds-has-flexi-truncate {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  min-width: 0;
+}
+
+.slds-truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.slds-text-align_center {
+    text-align: center;
+}
+
+/* Line clamp and truncate after 3 lines */
+.slds-line-clamp, .slds-line-clamp_x-small, .slds-line-clamp_small {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}
+
+.slds-line-clamp {
+    -webkit-line-clamp: 3;
+}
+
+.slds-line-clamp_small {
+    -webkit-line-clamp: 3;
+}
+
+.slds-line-clamp_x-small {
+    -webkit-line-clamp: 2;
+}
+
+.slds-line-clamp_medium {
+    -webkit-line-clamp: 5;
+}
+
+.slds-line-clamp_large {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}

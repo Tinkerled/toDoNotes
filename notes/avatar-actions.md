@@ -8,7 +8,7 @@
 
 ## Passing arguments
 actionPosition:
-
+check if its in a storybookWrappers!!!
     `avatar.stories.js`
     `/__examples__/avatar.js`
     `avatar.html` -> `action-position={actionPosition}`
@@ -62,12 +62,12 @@ storybook wrapper add @api label, variant...
     handleActionClick(event) {
         console.log(event.currentTarget.value);
         /**
-            * The event fired when a user clicks on an action.
-            *
-            * @event
-            * @name actionclick
-            * @public
-            */
+        * The event fired when a user clicks on an action.
+        *
+        * @event
+        * @name actionclick
+        * @public
+        */
         this.dispatchEvent(
             new CustomEvent('actionclick', {
                 detail: {
@@ -114,3 +114,15 @@ storybook wrapper add @api label, variant...
             ]);
         })
     })
+
+### Keep ###
+icon-size={actionMenuSize}
+
+avatar size |   menu size
+xx-large    |   small
+x-large     |   x-small
+large       |   x-small (big) xx-small (small)
+medium      |   xx-small
+
+show actions if:true={showActions} 
+is size small == medium or ... smaller sizes
